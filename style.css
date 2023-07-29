@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+nav > .container-fluid{
+    padding-left: 6.25rem; ;
+    padding-right: 6.25rem;
+}
+
+
+.flex-container-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.938rem;
+    flex-wrap: wrap;
+
+
+}
+
+.flex-container-one >div > img{
+    width: 18.75rem;
+    height: 14.5rem;
+    border-radius: 20%;
+}
+
+.grid-box{
+    display: grid;
+    grid-template-rows: 18.75rem 18.75rem;
+    grid-template-columns: 18.75rem 46.75rem;
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+    justify-content: center;
+    margin-top: 1.875rem;
+    overflow: hidden;  
+    margin-bottom: 1.875rem;
+}
+
+.img-1,.img-3{
+    height: 18.75rem ;
+    width:18.75rem ;
+}
+
+.img-2,.img-5,.img-7,.img-8{
+    width: 9.375rem;
+    height: 8.438rem;
+}
+
+.img-6 , .img-9{
+    height: 8.438rem;
+    width: 24.25rem;
+}
+
+.img-4{
+    height: 18.75;
+    width: 46.75rem;
+}
+
+
+
+.box-2{
+    display: grid;
+    grid-template-columns:9.375rem 9.375rem auto ;
+    column-gap: 1.875rem;
+    row-gap: 1.875rem;
+}
+
+
+.bootstrap-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.938rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 2.938rem;
+    box-shadow: 1px 1px 2px black;
+}
+
+footer > .row{
+    margin-bottom: 2.875rem;
+}
+
+.col-4 > form {
+    position: absolute;
+    right: 5%;
+}
+.col-4 > form > p{
+    margin-bottom: 1rem;
+}
+
+
+
+
+
